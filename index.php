@@ -106,6 +106,7 @@ else {
         echo "<p>Sorry, there was an error uploading your file.</p>";
     }
 }
+    echo "<div> <h1> do more file"
 echo "</div>";
 }
 echo "<h3>Uploaded Files</h3>";
@@ -115,6 +116,6 @@ foreach ($files as $f) {
 }
 ?>
 </div>
-<div> <h1> do more file
+
 </body>
 </html>
