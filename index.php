@@ -106,7 +106,7 @@ else {
         echo "<p>Sorry, there was an error uploading your file.</p>";
     }
 }
-    echo "<div> <h1> do more file"
+    echo "<div> <h1> do more file</div>"
 echo "</div>";
 }
 echo "<h3>Uploaded Files</h3>";
