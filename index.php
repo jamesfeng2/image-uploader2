@@ -106,10 +106,10 @@ else {
         echo "<p>Sorry, there was an error uploading your file.</p>";
     }
 }
-    echo "<div> <h1> do more file</div>"
+  
 echo "</div>";
 
-echo "<h3>Uploaded Files</h3>";
+echo "<h3>Uploaded Files11111</h3>";
 }
 $files = array_diff(scandir($target_dir), array('.', '..','uploads','.trashcan'));
 foreach ($files as $f) {
