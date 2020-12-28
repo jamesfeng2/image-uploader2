@@ -1,1 +1,8 @@
-ddddd
+--code=https://github.com/OpenShiftInAction/image-uploader.git
+oc get routes/jf1
+
+oc delete all -l app=jf1
+oc new-app --name=jf1 --code=https://github.com/jamesfeng2/image-uploader2
+oc describe svc/jf1
+oc expose svc/jf1
+oc status -v
